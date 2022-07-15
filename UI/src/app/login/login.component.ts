@@ -15,7 +15,9 @@ export class LoginComponent implements OnInit {
     
   }
   
-  submit(data: any){
-    alert("Entered Email id : " + data.username);
+  submit(data: any) {
+    var val = {user: data.username, password: data.password};
+    var x = this.service.loginverify(val).subscribe()
+    console.log(x)
   }
 }
