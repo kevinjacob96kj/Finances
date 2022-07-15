@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
     
   }
   
-  submit(){
-    console.log("h")
+  submit(data: any){
+    alert("Entered Email id : " + data.username);
   }
 }
