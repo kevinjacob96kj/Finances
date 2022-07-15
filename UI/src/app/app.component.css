@@ -1,0 +1,48 @@
+.fixed-header{
+    top: 0;
+    width: 100%;
+    position: fixed;        
+    background: black;
+    padding: 0.005rem 0;
+    color: #fff;
+    left: 0;
+    text-align: center;
+    
+}
+
+.navbar{
+    width: 100%;
+    left: 0;
+    position: fixed;        
+    background: grey;
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-color: black;
+    border-bottom: 15px;
+}
+a{
+    color:#fff;
+}
+
+.fixed-footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;        
+    background: black;
+    padding: 0.005rem 0;
+    color: #fff;
+    left: 0;
+    text-align: center;
+}
+
+.fixed-main{
+    margin: 0;
+    position: fixed;
+}
+
+.container{
+    background-color: red;
+}

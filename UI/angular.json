@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/UI",
+            "outputPath": "dist/ui",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -101,9 +101,5 @@
         }
       }
     }
-  },
-  "defaultProject": "UI",
-  "cli": {
-    "analytics": "46a6f306-d5b8-4605-843c-ccd93682709e"
   }
 }

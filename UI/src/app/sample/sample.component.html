@@ -1,0 +1,17 @@
+<h1>sample works!</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Username</th>
+            <th>Password</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of UserList">
+            <td>{{item.Id}}</td>
+            <td>{{item.Username}}</td>
+            <td>{{item.Password}}</td>
+        </tr>
+    </tbody>
+</table>
