@@ -7,7 +7,7 @@
 .form_class {
     width: 500px;
     padding: 40px;
-    background-color: white;
+    background-color: blue;
     font-family: 'system-ui';
     box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
 }
