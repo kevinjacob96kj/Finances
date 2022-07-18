@@ -1,0 +1,39 @@
+.container{
+    margin: 0 auto;
+    position: fixed;
+    margin-top: 220px;
+    margin-left: 250px;
+    height: 120px;
+    width: 350px;
+    display: flex;
+    column-gap: 50px;
+    justify-content: space-between;
+
+}
+
+.card1, .card2{
+    
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880__480.jpg");
+    background-size: 150px 170px;
+    opacity: 0.95;
+    height: 120px;
+    width: 550px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    line-height: 120px;
+    letter-spacing: 2.5px;
+}
+.card2{
+    background-image: url("https://img.freepik.com/free-vector/bank-building-with-cityscape_1284-52265.jpg?size=626&ext=jpg");
+    color: black;
+}
+.card1:hover{
+    cursor: pointer;
+}
+
+.card2:hover{
+    cursor: pointer;
+}
+

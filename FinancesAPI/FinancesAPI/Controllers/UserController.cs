@@ -45,7 +45,8 @@ namespace FinancesAPI.Controllers
         [HttpPost]
         public JsonResult Post(Users user)
         {
-            string query = @"EXEC UserAuthentication @Username = '" + user.Username +"', @Password = '"+ user.Password +"'";
+            //string query = @"Select * from Users where Username = '" + user.Username +"'";
+            string query = @"Select Count(*) as active from dbo.Users where Username = '" + user.Username +"'and Password = '"+ user.Password +"'";
             DataTable table = new DataTable();
             string sqlDataSource = _configuration.GetConnectionString("DsnFinanceCon");
             SqlDataReader myReader;

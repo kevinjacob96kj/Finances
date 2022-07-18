@@ -1,12 +1,12 @@
 <div class="form-container">
     <h1>Login</h1>
-    <form Id="form1" class="form_class">
+    <form #userlogin = "ngForm" (ngSubmit) = "submit(userlogin.value)" Id="form1" class="form_class">
         <div class="form_div">
             <label>USERNAME</label>
-            <textarea id="username" name="username" class="field_class"></textarea>
+            <textarea id="username" name="Username" class="field_class" ngModel></textarea>
             <label>PASSWORD</label>
-            <textarea id="password" name="password" class="field_class"></textarea>
-            <button class="submit_class" type="submit" (click)="submit()">Submit</button>
+            <textarea id="password" name="Password" class="field_class" ngModel></textarea>
+            <button class="submit_class" type="submit" value="submit">Submit</button>
         </div>    
     </form>
 </div>
