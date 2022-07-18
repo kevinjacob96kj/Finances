@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LoginService } from '../services/login.service';
 import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -20,7 +21,7 @@ export class LoginComponent implements OnInit {
     console.log(resp[0].active)  
     if(resp[0].active >= 1)
     {
-      this.router.navigateByUrl('/Sample');
+      this.router.navigateByUrl('/Home');
     }
     else{
       const currentRoute = this.router.url;
