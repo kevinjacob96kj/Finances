@@ -13,13 +13,7 @@ export class SampleComponent implements OnInit {
   UserList:any=[];
 
   ngOnInit(): void {
-    this.refreshUserList();
   }
 
-  refreshUserList(){
-    this.service.getUserList().subscribe(data => {
-      this.UserList = data;
-      console.log(this.UserList)
-    })
-  }
+  
 }
